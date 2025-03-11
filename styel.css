@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    background-color: rgb(184, 0, 43);
+    font-family: 'Sriracha', cursive;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 5px ;
+    text-decoration: underline 5px   ;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+
+}
+ navbar{
+    padding: 5px;
+    margin: 5px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: black;    
+ }
+
+ 
+
+li,a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: larger;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+
+.title , .title_2 {
+    text-align: left; 
+    padding: 15px;
+    margin: 10px;
+    color: #ffffff;
+    text-decoration: underline ;
+
+}
+
+.orders{
+    color: #ffffff;
+    font-size: smaller;
+    padding: 5px;
+    margin: 5px ;
+    display:grid
+}
+
+
+
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pic {
+    border: 10px solid #dddddd00;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    animation: rotate 10s linear infinite; 
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
